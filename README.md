@@ -1,12 +1,12 @@
 # PathologicClassicRTX
 
-A RTX-Remix mod for the classic game Pathologic.
+A (Work In Progress) RTX-Remix mod for the classic game Pathologic.
 
 ## Installation
-1. Set up the game. Recommended version: [Pathologic Classic HD](https://www.gog.com/en/game/pathologic_classic_hd)
-2. Download the latest version of **bridge-remix** (`bf0984b`) from GitHub (must be logged in): [bridge-remix](https://github.com/NVIDIAGameWorks/bridge-remix/actions/runs/5225910924)
+1. Set up the game. _Recommended version: [Pathologic Classic HD](https://www.gog.com/en/game/pathologic_classic_hd)_
+2. Download **bridge-remix** (`bf0984b`) from GitHub (must be logged in): [bridge-remix](https://github.com/NVIDIAGameWorks/bridge-remix/actions/runs/5225910924)
 3. Extract the contents of **bridge-remix** to `<game-folder>\bin\Final`
-4. Download the latest version of **dxvk-remix** (`0a9d916`) from GitHub (must be logged in): [dxvk-remix](https://github.com/NVIDIAGameWorks/dxvk-remix/actions/runs/5272240553)
+4. Download **dxvk-remix** (`0a9d916`) from GitHub (must be logged in): [dxvk-remix](https://github.com/NVIDIAGameWorks/dxvk-remix/actions/runs/5272240553)
 5. Extract the contents of **dxvk-remix** to `<game-folder>\bin\Final\.trex`
 6. Download the custom version of **DXVK-Remix** (`0a9d916`) with ImGui support for lightmap textures, or build it yourself: [Custom DXVK-Remix](https://github.com/anchorlightforge/dxvk-remix/releases/tag/qol-improvement)
 7. Extract `d3d9.dll` and `d3d9.pdb` to `<game-folder>\bin\Final\.trex`
