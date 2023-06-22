@@ -1,4 +1,6 @@
 # Steam related files
+steam_api.dll
+steam_appid.txt
 
 # GOG related files
 support.ico
