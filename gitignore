@@ -1,0 +1,48 @@
+# Steam related files
+
+# GOG related files
+support.ico
+webcache.zip
+*.lnk
+goglog.ini
+goggame-*
+gog.ico
+EULA.txt
+unins000.*
+Galaxy.dll
+
+# Player data
+Saves/*
+data/*
+bin/Final/.vs/
+bin/Final/rtx-remix/
+exception.*
+
+# Remix DLLs and executables - to be integrated later or as a separate submodule
+NvRemixLauncher32.exe
+NvRemixLauncher32.pdb
+d3d9.*
+
+# Leftovers from Remix
+*artifacts_readme.txt
+*.log
+NvRemixBridge.exe*
+bin/Final/.trex/
+Game.dxvk-cache
+
+
+# Proprietary game assets
+D3D.dll
+Engine.dll
+*.VFS
+nosound.dll
+SDL2.dll
+OpenAL32.dll
+UI.dll
+UVPupil.dll
+Sound.dll
+VFS.dll
+LifeStudioHead*
+metrics.txt
+Game.exe
+FS.dll
