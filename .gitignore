@@ -46,3 +46,7 @@ LifeStudioHead*
 metrics.txt
 Game.exe
 FS.dll
+bin/Final/LICENSE.txt
+bin/Final/ThirdPartyLicenses-bridge.txt
+bin/Final/ThirdPartyLicenses-dxvk.txt
+bin/Final/CRC.txt
