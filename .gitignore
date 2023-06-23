@@ -1,39 +1,77 @@
 # Steam related files
 steam_api.dll
 steam_appid.txt
+Steamworks.NET.dll
+Steamworks.dll
+installscript.vdf
+testapp.exe
 
 # GOG related files
 support.ico
 webcache.zip
 *.lnk
 goglog.ini
+Galaxy64.dll
+GalaxyCSharpGlue.dll
 goggame-*
 gog.ico
 EULA.txt
 unins000.*
 Galaxy.dll
+# GOG proprietary DxWrapper
+dxcfg.exe
+dxcfg.ini
 
-# Player data
+# Remix user data
+artifacts_readme.txt
+*.log
+*.dxvk-cache
+NvRemixBridge.exe*.dmp
+rtx?*.conf
+#bin/Final/.trex/*
+# bin/Final/.trex/
+# Leave out captures and replacements if not a private repo and contains captured content
+**/rtx-remix/mods
+**/rtx-remix/captures
+**/lss/captures
+**/lss/mods
+# Alternatively, just leave out user captures if the mods are free of proprietary assets
+# !mods/
+
+#Uncomment to ignore all DLLs and executables by default
+# *.exe
+# *.dll
+
+# Remix DLLs and executables - not under MIT license and has to be downloaded separately
+NvLowLatencyVk.dll
+NRD.dll
+rtxio.dll
+GFSDK_Aftermath_Lib.x64.dll
+nvngx_dlss.dll
+tbb*.dll
+usd_ms.dll
+**/.trex/usd/
+
+# These ones are probably okay, but leaving ignored for now
+.trex/d3d9.dll
+.trex/d3d9.pdb
+d3d9.dll
+d3d9.pdb
+NvRemixBridge.exe
+NvRemixBridge.pdb
+NvRemixLauncher32.exe
+NvRemixLauncher32.pdb
+
+bin/Final/ThirdPartyLicenses-bridge.txt
+bin/Final/ThirdPartyLicenses-dxvk.txt
+bin/Final/CRC.txt
+
+# Pathologic - Player data
 Saves/*
 data/*
 bin/Final/.vs/
-bin/Final/rtx-remix/
 exception.*
-
-# Remix DLLs and executables - to be integrated later or as a separate submodule
-NvRemixLauncher32.exe
-NvRemixLauncher32.pdb
-d3d9.*
-
-# Leftovers from Remix
-*artifacts_readme.txt
-*.log
-NvRemixBridge.exe*
-bin/Final/.trex/
-Game.dxvk-cache
-
-
-# Proprietary game assets
+# Proprietary game assets from Pathologic Classic HD
 D3D.dll
 Engine.dll
 *.VFS
@@ -49,6 +87,7 @@ metrics.txt
 Game.exe
 FS.dll
 bin/Final/LICENSE.txt
-bin/Final/ThirdPartyLicenses-bridge.txt
-bin/Final/ThirdPartyLicenses-dxvk.txt
-bin/Final/CRC.txt
+
+*.dds
+*.bump
+*.tex
