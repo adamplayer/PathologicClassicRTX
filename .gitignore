@@ -22,6 +22,9 @@ Galaxy.dll
 dxcfg.exe
 dxcfg.ini
 
+#Frequently appearing in many games
+gamecontrollerdb.txt
+
 # Remix user data
 artifacts_readme.txt
 *.log
@@ -31,10 +34,10 @@ rtx?*.conf
 #bin/Final/.trex/*
 # bin/Final/.trex/
 # Leave out captures and replacements if not a private repo and contains captured content
-**/rtx-remix/mods
+**/rtx-remix/mods/Textures
 **/rtx-remix/captures
 **/lss/captures
-**/lss/mods
+**/lss/mods/Textures
 # Alternatively, just leave out user captures if the mods are free of proprietary assets
 # !mods/
 
@@ -68,7 +71,7 @@ bin/Final/CRC.txt
 
 # Pathologic - Player data
 Saves/*
-data/*
+
 bin/Final/.vs/
 exception.*
 # Proprietary game assets from Pathologic Classic HD
@@ -87,7 +90,18 @@ metrics.txt
 Game.exe
 FS.dll
 bin/Final/LICENSE.txt
+profiles.xml
 
+# Extracted VFS dirs
+**/Actors/*
+**/Geometries/*
+**/Scenes/*
+**/UI/*
+**/Video/*
+**/World/*
+**/Textures/*
+**/Scripts/*
 *.dds
-*.bump
-*.tex
+
+# Core mod.usda file-- other USDAs can be merged
+mod.usda

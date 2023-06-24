@@ -1,4 +1,12 @@
 # PathologicClassicRTX
+<<<<<<< Updated upstream
+=======
+An RTX Remix mod for the classic game Pathologic.
+
+This project uses RTX Remix to inject the original game renderer's D3D9 calls to a new Vulkan renderer, allowing for real-time path traced lighting as well as other Nvidia-developed technologies such as DLSS 2 and Nvidia Reflex.
+
+***Important Note:*** For the purposes of an easier modding experience, the fork of DXVK-Remix used in this project has been modified by the Pathologic Classic RTX maintainers and is not representative of the original DXVK-Remix project.
+>>>>>>> Stashed changes
 
 A (Work In Progress) RTX-Remix mod for the classic game Pathologic.
 

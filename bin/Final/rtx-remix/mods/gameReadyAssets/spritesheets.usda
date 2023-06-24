@@ -1,0 +1,18 @@
+#usda 1.0
+
+over "RootNode"
+{
+	over "Looks"
+	{
+	over "mat_b0fa84e2dcfcb6a1"
+	{
+		over "Shader"
+		{
+			asset inputs:emissive_mask_texture = @'./Textures/fire.dds'@
+			bool inputs:enable_emission = 1
+			int inputs:sprite_sheet_rows = 2
+			int inputs:sprite_sheet_cols = 2
+			int inputs:sprite_sheet_fps = 20
+		}
+	}
+}
